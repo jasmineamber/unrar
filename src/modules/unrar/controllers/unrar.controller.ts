@@ -2,7 +2,7 @@
  * @Author       : jasmineamber
  * @Date         : 2023-04-06 22:06:25
  * @LastEditors  : jasmineamber
- * @LastEditTime : 2023-05-01 11:56:06
+ * @LastEditTime : 2023-05-01 13:21:41
  * @FilePath     : /src/modules/unrar/controllers/unrar.controller.ts
  * @Description  :
  */
@@ -38,5 +38,10 @@ export class SubController {
   @Get()
   async Hello() {
     return "Hello World!";
+  }
+
+  @Get("ping")
+  async ping() {
+    return "OK";
   }
 }
