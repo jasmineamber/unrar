@@ -16,6 +16,12 @@ dependencies:
   node-unrar-js:
     specifier: ^2.0.0
     version: 2.0.0
+  reflect-metadata:
+    specifier: ^0.1.12
+    version: 0.1.13
+  rxjs:
+    specifier: ^7.1.0
+    version: 7.8.0
 
 devDependencies:
   '@nestjs/cli':
