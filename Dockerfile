@@ -4,7 +4,7 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 
 # 启用 pnpm
-RUN corepack enable
+RUN npm install -g pnpm@8.7.6
 
 # 复制依赖定义
 COPY package.json pnpm-lock.yaml* ./
